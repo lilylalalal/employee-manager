@@ -1,9 +1,6 @@
 # Long Practice: Class Syntax with Employees and Managers
 
-Now that you've learned about class syntax, commonJs modules, and reading 
-test specs, it's time to bring these skills together!
-
-In this practice, you will:
+This practice will covers:
 1. Create and use JavaScript ES6 classes
 2. Use inheritance to create a child of a parent class
 3. Use polymorphism to overwrite/override an inherited method
@@ -27,14 +24,13 @@ taking into account whether they are an employee or a manager.
 
 ## Project Overview
 
-This project will leverage basic Class syntax to create an `Employee` class. 
-In a separate file you will create a `Manager` class that will inherit its 
-properties from the `Employee` class. 
+Leverage basic Class syntax to create an `Employee` class and 'Manager' class in seperated file that 
+will inherit its properties from the `Employee` class. 
 
 Using common JSmodules to import/export your classes will allow you to keep your
 code clean and maintainable.  
 
-Once you know you can create both an instance of an employee and a manager, you
+Once create both an instance of an employee and a manager, you
 will alter your `Employee` constructor to dynamically add an `Employee` to 
 their `Manager`'s `employees` list upon instantiation.
 
@@ -44,14 +40,6 @@ in order to find and sum the salaries of each `Employee` under that `Manager`.
 If an `Employee` is also a `Manager` you'll need to sum their `Employee`s' 
 salaries as well.
 
-You will use a combination of local testing and test specs to ensure your 
-application performs as it should.
-
-## Set up
-
-Clone the starter from the **Download** link at the bottom of this page.
-
-Run ```npm install``` to install any dependencies.
 
 ## Phases
 
